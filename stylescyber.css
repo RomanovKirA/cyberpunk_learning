@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Archangelsk';
+    src: url(fonts/ofont.ru_Archangelsk.ttf);
+}
+
 body {
     margin: 0;
 }
@@ -7,13 +12,13 @@ body {
     position: sticky;
     top: 20px;
     height: 0;
+    z-index: 1000;
 }
 
 .header__content {
     display: flex;
     justify-content: space-around;
 }
-
 
 .header__socseti {
     display: flex;
@@ -27,7 +32,88 @@ li::marker {
     content: '';
 }
 
-.carousel {
-    background-color: gray;
-    height: 3000px;
+.carousel-wrapper__carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel__content {
+    width: 100%;
+    display: flex;
+    animation: slide 17s infinite;
+}
+
+img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.carousel-wrapper__learn-more {
+    clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+    width: 624px;
+    height: 369px;
+    background-color: #F8F200;
+    position: absolute;
+    bottom: 0;
+    left: 53%;
+}
+
+.carousel-wrapper {
+    position: relative;
+}
+
+.learn-more__text {
+    color: #000;
+    font-size: 62px;
+    font-family: Archangelsk;
+    margin-left: 70px;
+    width: 484px;
+    margin-bottom: 25px;
+}
+
+.learn-more__button {
+    background-color: #000;
+    color: #F8F200;
+    text-align: center;
+    width: 272px;
+    height: 78px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    border: none;
+    margin-left: 70px;
+    
 }

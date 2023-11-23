@@ -43,7 +43,7 @@ li::marker {
     animation: slide 15s infinite;
 }
 
-.carousel__images {
+.content__images {
     width: 100%;
 }
 
@@ -97,12 +97,10 @@ li::marker {
 }
 
 .learn-more__text {
-    color: #000;
     font-size: 62px;
     font-family: Archangelsk;
     margin-left: 11%;
     width: 484px;
-    margin-bottom: 25px;
 }
 
 .learn-more__button {
@@ -123,19 +121,16 @@ li::marker {
 
 .about-wrapper__title {
     width: 996px;
-    margin-top: 70px;
-    margin-left: 320px;
-    margin-bottom: 23px;
+    margin: 70px 0 23px 17.5%;
     font-family: Archangelsk;
     font-size: 62px;
     font-weight: 400;
-    line-height: normal;
 }
 
 .about-wrapper__text-block {
     width: 952px;
     height: 125px;
-    margin-left: 320px;
+    margin-left: 17.5%;
     line-height: 34px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -171,7 +166,6 @@ li::marker {
     position: absolute;
     right: 14%;
     bottom: 0;
-    /* Я понимаю, что это кошмар, но ты не был онлайн */
 }
 
 .spray {

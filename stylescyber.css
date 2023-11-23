@@ -100,7 +100,7 @@ li::marker {
     color: #000;
     font-size: 62px;
     font-family: Archangelsk;
-    margin-left: 70px;
+    margin-left: 11%;
     width: 484px;
     margin-bottom: 25px;
 }
@@ -114,74 +114,67 @@ li::marker {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     border: none;
-    margin-left: 70px;
+    margin-left: 11%;
 }
 
-.content__h {
+.about-wrapper{
+    position: relative;
+}
+
+.about-wrapper__title {
     width: 996px;
-    height: 63px;
     margin-top: 70px;
     margin-left: 320px;
-    margin-right: 604px;
-    color: #000;
+    margin-bottom: 23px;
     font-family: Archangelsk;
     font-size: 62px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.content__p {
+.about-wrapper__text-block {
     width: 952px;
     height: 125px;
-    margin-top: 25px;
     margin-left: 320px;
-    margin-right: 648px;
-    color: #52BEDC;
+    line-height: 34px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 34px;
+    color: #777;
+    display: inline-block;
 }
 
-.p__span {
-    color: #777;
+.text-block__text--blue {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 34px;
+    color: #52BEDC;
 }
 
-
-.images__1 {
+.images-block__city--top {
     width: 460px;
     height: 196px;
-    margin-right: 1140px;
-    margin-left: 320px;
-    margin-top: 70px;
+    margin-left: 17%;
+    margin-top: 3%;
 }
 
-.images__2 {
+.images-block__woman--bottom {
     width: 460px;
     height: 196px;
-    margin-right: 1140px;
-    margin-left: 320px;
-    margin-top: 32px;
+    margin-left: 17%;
+    margin-top: 2%;
 }
 
-.images__3 {
-    margin-left: 812px;
-    margin-right: 320px;
+.images-block__city--main {
     width: 788px;
     height: 424px;
     position: absolute;
-    top: 1349px;
+    right: 14%;
+    bottom: 0;
     /* Я понимаю, что это кошмар, но ты не был онлайн */
 }
 
-.spray{
-    margin-top: 70px;
+.spray {
+    margin-top: 3%;
     overflow: hidden;
 }

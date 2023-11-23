@@ -172,3 +172,29 @@ li::marker {
     margin-top: 3%;
     overflow: hidden;
 }
+
+.give-console{
+    background-color: #000;
+}
+
+.give-console__title {
+    color:#FFFFFF;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.title__image {
+
+}
+
+.give-console__text-block{
+    width: 952px;
+    height: 125px;
+    margin-left: 320px;
+    line-height: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #777;
+    line-height: 34px;
+}

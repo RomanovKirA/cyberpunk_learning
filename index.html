@@ -54,7 +54,7 @@
 
         <section class="about-wrapper">
             <h2 class="about-wrapper__title">Найт-Сити изменит тебя навсегда!</h2>
-            <span class="about-wrapper__text-block">
+            <p class="about-wrapper__text-block">
                 <span class="text-block__text--blue">Cyberpunk 2077</span>
                 — приключенческая ролевая игра, действие которой происходит в
                 мегаполисе Найт-Сити,
@@ -63,7 +63,7 @@
                 игры
                 своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя
                 окружает.
-            </span>
+            </p>
             <div class="about-wrapper__images-block">
                 <div class="images-block__city--top">
                     <img src="grafika/about/gorod1.png" alt="">
@@ -76,10 +76,49 @@
                 </div>
             </div>
         </section>
-        <div class="spray">
-            <img src="grafika/spray.png" alt="">
-        </div>
+
+        <section class="give-console-wrapper">
+            <div class="spray">
+                <img src="grafika/give/spray.png" alt="">
+            </div>
+            <h2 class="give-console-wrapper__title">
+                Играй и выигрывай!
+            </h2>
+            <p class="give-console-wrapper__text-block">Играй в
+                <span class="text-block__text--blue">Cyberpunk 2077</span>
+                и получи возможность выиграть консоль
+                <span class="text-block__text--blue">Xbox Series X</span>
+                или
+                <span class="text-block__text--blue">Sony PlayStation 5!</span>
+                Заполни форму ниже и приложи скриншот о покупке игры.
+                Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
+            </p>
+            <div class="give-console-wrapper__form-wrapper">
+                <form action="#" class="form-wrapper__form">
+                    <input type="text" class="form__input" name="text" placeholder="Как тебя зовут?">
+                    <input type="email" class="form__input" name="email" placeholder="Твой e-mail">
+                    <input id="file" type="file" name="file" class="label__file">
+                    <label for="file" class="form__label">
+                        <span class="label__text">Прикрепить скриншот</span>
+
+                        <span class="label__img-format">.png / .jpg / .pdf</span>
+                    </label>
+                    <button class="form__button">Отправить</button>
+                    <div class="form__checkbox-wrapper">
+                        <input type="checkbox" class="checkbox-wrapper__input">
+                        <label for="" class="checkbox-wrapper__label">
+                            <span>Согласен на обработку персональных данных</span>
+                        </label>
+                    </div>
+                </form>
+                <picture class="give-console__image-consoles">
+                    <img src="grafika/give/image-consoles.png" alt="">
+                </picture>
+            </div>
+            <div class="spray">
+                <img src="grafika/give/spray2.png" alt="">
+            </div>
+        </section>
     </main>
 </body>
-
 </html>

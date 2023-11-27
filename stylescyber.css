@@ -174,30 +174,24 @@ li::marker {
     width: 100%;
 }
 
-.give-console {
+.give-console-wrapper {
     background-color: #000;
 }
 
-.give-console__title {
-    margin-top: 15px;
-    margin-bottom: 0;
-    margin-left: 17.5%;
+.give-console-wrapper__title {
+    margin: 15px 0 0 17.5%;
+    padding: 58px 0 10px 164px;
     background-image: url(grafika/give/Group215.svg);
     background-repeat: no-repeat;
     background-position: left center;
-    padding-top: 58px;
-    padding-bottom: 10px;
-    padding-left: 164px;
-    color: #FFFFFF;
+    color: #fff;
     font-family: Archangelsk;
     font-size: 62px;
     font-weight: 400;
 }
 
-.give-console__text-block {
-    margin-top: 25px;
-    margin-left: 17.5%;
-    margin-bottom: 98px;
+.give-console-wrapper__text-block {
+    margin: 25px 0 98px 17.5%;
     width: 952px;
     line-height: 34px;
     font-family: 'Roboto', sans-serif;
@@ -216,24 +210,24 @@ li::marker {
 
 }
 
-.give-console__form-wrapper {
+.give-console-wrapper__form-wrapper {
     display: flex;
 }
 
-.give-console__form {
+.form-wrapper__form {
     display: flex;
     flex-direction: column;
     width: 460px;
     margin-left: 17.5%;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     gap: 35px;
 }
 
 .form__input::-webkit-input-placeholder {
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .form__input {
@@ -246,7 +240,7 @@ li::marker {
 
 input {
     background-color: #000;
-    color: #FFFFFF;
+    color: #fff;
     font-size: 18px;
 }
 
@@ -279,7 +273,7 @@ input {
 
 }
 
-.form__checkbox {
+.checkbox-wrapper__label {
     font-size: 12px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
@@ -287,7 +281,7 @@ input {
     vertical-align: middle;
 }
 
-.checkbox__input{
+.checkbox-wrapper__input {
     color: #F8F200;
     background-color: #000;
 }

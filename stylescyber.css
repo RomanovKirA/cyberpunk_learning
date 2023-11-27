@@ -99,7 +99,7 @@ li::marker {
 .learn-more__text {
     font-size: 62px;
     font-family: Archangelsk;
-    margin-left: 11%;
+    margin-left: 17.5%;
     width: 484px;
 }
 
@@ -115,7 +115,7 @@ li::marker {
     margin-left: 11%;
 }
 
-.about-wrapper{
+.about-wrapper {
     position: relative;
 }
 
@@ -149,15 +149,15 @@ li::marker {
 .images-block__city--top {
     width: 460px;
     height: 196px;
-    margin-left: 17%;
-    margin-top: 3%;
+    margin-left: 17.5%;
+    margin-top: 70px;
 }
 
 .images-block__woman--bottom {
     width: 460px;
     height: 196px;
-    margin-left: 17%;
-    margin-top: 2%;
+    margin-left: 17.5%;
+    margin-top: 32px;
 }
 
 .images-block__city--main {
@@ -169,32 +169,125 @@ li::marker {
 }
 
 .spray {
-    margin-top: 3%;
+    margin-top: 70px;
     overflow: hidden;
+    width: 100%;
 }
 
-.give-console{
+.give-console {
     background-color: #000;
 }
 
 .give-console__title {
-    color:#FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 17.5%;
+    background-image: url(grafika/give/Group215.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-top: 58px;
+    padding-bottom: 10px;
+    padding-left: 164px;
+    color: #FFFFFF;
     font-family: Archangelsk;
     font-size: 62px;
     font-weight: 400;
 }
 
-.title__image {
-
-}
-
-.give-console__text-block{
+.give-console__text-block {
+    margin-top: 25px;
+    margin-left: 17.5%;
+    margin-bottom: 98px;
     width: 952px;
-    height: 125px;
-    margin-left: 320px;
     line-height: 34px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #777;
-    line-height: 34px;
+}
+
+.form__button {
+    width: 192px;
+    height: 59px;
+    background-color: #F8F200;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.give-console__form-wrapper {
+    display: flex;
+}
+
+.give-console__form {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    margin-left: 17.5%;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    gap: 35px;
+}
+
+.form__input::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+
+.form__input {
+    padding-bottom: 13px;
+    border: none;
+    border-bottom: solid #777 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+input {
+    background-color: #000;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.label__file {
+    display: none;
+}
+
+.give-console__image-consoles {
+    width: 788px;
+    height: 456px;
+}
+
+.form__label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    text-align: center;
+    border: 1px dashed #777;
+
+}
+
+.label__text {
+    text-decoration: underline;
+}
+
+.label__img-format {
+    font-size: 12px;
+
+}
+
+.form__checkbox {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.checkbox__input{
+    color: #F8F200;
+    background-color: #000;
 }

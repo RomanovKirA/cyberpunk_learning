@@ -324,7 +324,7 @@ input {
 
 .list__item {
     background-repeat: no-repeat;
-    padding-left: 40px;
+    padding-left: px;
     line-height: 32px;
 }
 
@@ -347,7 +347,6 @@ input {
     padding: 15px 50px;
     border: none;
     align-items: center;
-    gap: 10px;
     background-color: #000;
     color: #F8F200;
     font-family: 'Roboto', sans-serif;

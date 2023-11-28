@@ -316,22 +316,10 @@ input {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
 }
 
-
-.list__item--color::before {
-    content: url(grafika/hp/color_lens.svg);
-}
-
-.list__item--stars::before {
-    content: url(grafika/hp/auto_awesome.svg);
-}
-
-.list__item--rate::before {
-    content: url(grafika/hp/auto_awesome_motion.svg);
+.list__item{
+    margin: auto 0;
 }
 
 .content__button {

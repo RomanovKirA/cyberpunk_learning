@@ -321,17 +321,22 @@ input {
     gap: 26px;
 }
 
-
-.list__item--color::before {
-    content: url(grafika/hp/color_lens.svg);
+.list__item {
+    background-repeat: no-repeat;
+    padding-left: 34px;
+    line-height: 32px;
 }
 
-.list__item--stars::before {
-    content: url(grafika/hp/auto_awesome.svg);
+.list__item--color {
+    background-image: url(grafika/hp/color_lens.svg);
 }
 
-.list__item--rate::before {
-    content: url(grafika/hp/auto_awesome_motion.svg);
+.list__item--stars {
+    background-image: url(grafika/hp/auto_awesome.svg);
+}
+
+.list__item--rate {
+    background-image: url(grafika/hp/auto_awesome_motion.svg);
 }
 
 .content__button {

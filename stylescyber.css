@@ -288,7 +288,7 @@ input {
 }
 
 .hp-wrapper {
-    padding-top: 70px;
+    padding: 70px 0;
     background-color: #F8F200;
     display: flex;
     gap: 32px;
@@ -324,7 +324,7 @@ input {
 
 .list__item {
     background-repeat: no-repeat;
-    padding-left: px;
+    padding-left: 42px;
     line-height: 32px;
 }
 
@@ -368,6 +368,63 @@ input {
     display: flex;
     gap: 25px;
     justify-content: center;
+}
+
+
+.buy-game-wrapper {
+    padding: 70px 0 65px 53%;
+    background-image: url(grafika/buy/main-buy.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+.buy-game-wrapper__title {
+    margin: 0;
+    width: 624px;
+    color: #FFF;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.title--blue {
+    color: #52BEDC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.buy-game-wrapper__list {
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.buy-game-wrapper__list-platforms {
+    padding: 0;
+    line-height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    align-items: center;
+    gap: 47px;
+}
+
+.list__item--disk {
+    background-image: url(grafika/buy/disk.svg);
+}
+
+.list__item--code {
+    background-image: url(grafika/buy/code.svg);
+}
+
+.list__item--world {
+    background-image: url(grafika/buy/world.svg);
 }
 
 .footer__content {

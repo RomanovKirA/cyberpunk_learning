@@ -370,6 +370,7 @@ input {
     justify-content: center;
 }
 
+
 .buy-game-wrapper {
     padding: 70px 0 65px 53%;
     background-image: url(grafika/buy/main-buy.png);
@@ -426,4 +427,38 @@ input {
     background-image: url(grafika/buy/world.svg);
 }
 
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 17.5%;
+}
 
+.content__logos {
+    display: flex;
+    gap: 32px;
+}
+
+.content__footer-text {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-text__link {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer__black-line {
+    margin: 0;
+    padding: 13px 0;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
